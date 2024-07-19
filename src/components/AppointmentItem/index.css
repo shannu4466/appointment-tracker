@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+li {
+  list-style: none;
+  box-shadow: 2px 1px 2px 1px;
+  width: 250px;
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.star-img {
+  height: 30px;
+  width: 30px;
+}
+.star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
